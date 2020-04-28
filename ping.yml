@@ -1,0 +1,7 @@
+---
+- name: Ping playbook
+  hosts: localhost
+  
+  tasks:
+    - name: Ping
+      ping:
